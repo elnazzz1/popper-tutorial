@@ -1,0 +1,21 @@
+badge-server-url: http://badges.falsifiable.us
+metadata:
+  access_right: open
+  license: CC-BY-4.0
+  publication_type: article
+  upload_type: publication
+pipelines:
+  myfirstpipe:
+    envs:
+      host:
+        args: []
+    parameters: []
+    path: pipelines/myfirstpipe
+    requirements: {}
+    stages:
+    - one
+    - two
+    - three
+search_sources:
+- popperized
+version: 1
